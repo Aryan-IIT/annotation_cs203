@@ -1,8 +1,5 @@
 import pandas as pd
 import os
-import requests
-from io import BytesIO
-from PIL import Image
 
 #Read the CSV file
 csv_file = pd.read_csv('NLP_POS_sentences.csv')
@@ -29,3 +26,20 @@ output_folder = "CV_edited"
 os.makedirs(output_folder, exist_ok=True)
 
 #Images are manually downloaded due to auth issues with drive. 
+'''
+	•	NOUN: Noun
+	•	PROPN: Proper Noun
+	•	VERB: Verb
+	•	ADJ: Adjective
+	•	ADV: Adverb
+	•	ADP: Adposition (e.g., prepositions, postpositions)
+	•	PRON: Pronoun
+	•	DET: Determiner
+	•	CONJ: Conjunction
+	•	PART: Particle
+	•	PRON_WH: Wh-Pronoun (e.g., who, what)
+	•	PART_NEG: Negative Particle (e.g., not)
+	•	NUM: Numeral
+	•	X: Other/Unclassified
+
+'''
