@@ -25,3 +25,10 @@ All annotations are exported in CSV format and created using **Label Studio**. T
 Install the required dependencies using the [requirements file](requirements.txt):  
 ```bash
 pip install -r requirements.txt
+```
+---
+
+### Note 
+
+Please read [User History](user_history.txt) for more information on task 1. 
+The pdf of images, and images of the history are put in this [file](Task_1_Enivronment_setup.pdf).
