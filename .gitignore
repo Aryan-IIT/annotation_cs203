@@ -1,5 +1,6 @@
 venv_name
 NLP_POS_sentences.csv
 NLP_POS_sentences_edited.csv 
-#part of group 19  
-CV_edited
+#selective sentences of group 19  
+CV_edited 
+#this contains the selective images for group 19

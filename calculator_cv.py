@@ -2,6 +2,12 @@ import pandas as pd
 import numpy as np
 '''
 
+note: this file calculates the Fleiss Kappa for the cv dataset. 
+
+Here, Aryan and Parthiv are members of team 19. Praneet is a third annotator. 
+
+(for annotations "label-studio start" in terminal is used to boot label studio. Then annotations are performed on it)
+
 Reference => # https://datatab.net/tutorial/fleiss-kappa 
 
 '''

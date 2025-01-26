@@ -1,3 +1,12 @@
+### Note 
+'''
+This file satisfies the following 
+
+- Importing Dataset 
+- Editing them as per the need of a team
+
+'''
+
 import pandas as pd
 import os
 
