@@ -26,6 +26,8 @@ output_folder = "CV_edited"
 os.makedirs(output_folder, exist_ok=True)
 
 #Images are manually downloaded due to auth issues with drive. 
+
+#for reference
 '''
 	•	NOUN: Noun
 	•	PROPN: Proper Noun
