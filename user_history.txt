@@ -2,7 +2,8 @@
 
 The user history got deleted while creation. 
 
-The Ubuntu server crashed mid development and hence we were unable to generate a proper user_history.txt. 
+The Virtual Box powered off mid development and hence we were unable to generate a proper user_history.txt. 
+
 
 However, we ensure that we followed all the essential steps during the development phase and downloaded the necessary setup on ubuntu server. 
 
