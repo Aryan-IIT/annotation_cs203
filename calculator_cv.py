@@ -51,8 +51,8 @@ component_p_o = 0
 for i in range(num_samples):
     component_p_o += annotations["Trucks"][i]**2 + annotations["Not trucks"][i]**2
 
-P_o = (1 / (num_samples * (num_annotators - 1) * num_annotators)) * (component_p_o - num_annotators * num_samples)
-
+P_o = (1 / num_samples) * np.sum((annotations["Trucks"]**2 + annotations["Not trucks"]**2 - num_annotators) / 
+                                 (num_annotators * (num_annotators - 1)))
 #observed proportion (P_o)
 print(f"The observed proportion (P_o) is {P_o}\n")
 
